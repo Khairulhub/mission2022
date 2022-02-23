@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
@@ -10,14 +11,18 @@ h1{
     font-size: 45px;
 }
 p{
-    font-size: 16px;
+    font-size: 20px;
+}
+article{
+    font-size: 15px;
 }
 .img{
     width: 100%;
     padding-left: 30px;
 }
 .img1{ 
-    padding-left: 30px;
+    width: 300px !important;
+   
 }
 /* 1st part */
 .back{
@@ -26,6 +31,9 @@ p{
 }
 .auto{
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 container{
     display: flex;
@@ -53,7 +61,7 @@ container{
     padding: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 
 /* 2nd part */
@@ -69,7 +77,7 @@ container{
     width: 315px;
     border-radius: 5%;
     padding: 12px 37px;
-    height: 377px;
+    height: 390px;
     margin-bottom: 10px;
 }
 .card-div img{
@@ -95,7 +103,14 @@ container{
     background-position: right;
     
 }
-
+.flex{
+    display: flex;
+    justify-content:space-between ;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
 .black{
     background-color: black;
     color: #fff;
